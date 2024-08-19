@@ -1,7 +1,0 @@
-D:\Computer Science\Scripts\C# LinearAlg\LinearAlgebra\MatrixCore\bin\Debug\MatrixCore.exe.config
-D:\Computer Science\Scripts\C# LinearAlg\LinearAlgebra\MatrixCore\bin\Debug\MatrixCore.exe
-D:\Computer Science\Scripts\C# LinearAlg\LinearAlgebra\MatrixCore\bin\Debug\MatrixCore.pdb
-D:\Computer Science\Scripts\C# LinearAlg\LinearAlgebra\MatrixCore\obj\Debug\MatrixCore.csproj.AssemblyReference.cache
-D:\Computer Science\Scripts\C# LinearAlg\LinearAlgebra\MatrixCore\obj\Debug\MatrixCore.csproj.CoreCompileInputs.cache
-D:\Computer Science\Scripts\C# LinearAlg\LinearAlgebra\MatrixCore\obj\Debug\MatrixCore.exe
-D:\Computer Science\Scripts\C# LinearAlg\LinearAlgebra\MatrixCore\obj\Debug\MatrixCore.pdb
