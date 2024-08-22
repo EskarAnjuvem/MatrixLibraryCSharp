@@ -6,12 +6,19 @@ using System.Threading.Tasks;
 
 namespace LinearAlgebraLib.MatrixCore
 {
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
     public class Matrix
     {
         private int matrixRows;
         private int matrixColumns;
         private double[,] data;
-        
+
+             
         public int Rows 
         { 
             get { return matrixRows; }
@@ -20,16 +27,6 @@ namespace LinearAlgebraLib.MatrixCore
         public int Columns
         {
             get { return matrixColumns; }
-        }
-
-        public Matrix(int rows, int columns)
-        {
-            if (rows < 0 || columns < 0)
-                throw new ArgumentException("Matrix dimensions must be positive.");
-            this.matrixRows = rows;
-            this.matrixColumns = columns;
-
-            data = new double[rows, columns];
         }
 
         public double this[int row, int column]
@@ -47,6 +44,17 @@ namespace LinearAlgebraLib.MatrixCore
                     throw new IndexOutOfRangeException("Invalix Matrix index");
                 data[row, column] = value;
             }
+        }
+
+        public Matrix(int rows, int columns)
+        {
+            if (rows < 0 || columns < 0)
+                throw new ArgumentException("Matrix dimensions must be positive.");
+            
+            this.matrixRows = rows;
+            this.matrixColumns = columns;
+
+            data = new double[rows, columns];
         }
 
 
